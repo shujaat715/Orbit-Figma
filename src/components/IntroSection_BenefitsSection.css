@@ -1,0 +1,100 @@
+.intro-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: inherit;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-benefits-container {
+      flex-direction: row;
+    }
+  }
+  
+  .intro-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #e3e4e8;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 600px;
+  }
+  
+  .logo-container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+  }
+  
+  .logo-image {
+    width: 116px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .intro-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #082431;
+    line-height: 1.4;
+  }
+  
+  .cta-button {
+    background: #ff5722;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .benefits-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 600px;
+  }
+  
+  .benefits-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0d1012;
+  }
+  
+  .discount-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .reward-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0d1012;
+  }
+  
+  .reward-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  

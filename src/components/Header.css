@@ -1,0 +1,113 @@
+.header {
+    background-color: #082431;
+    width: 100%;
+    min-height: 85px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .header-container {
+    width: 100%;
+    max-width: 1348px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    object-fit: contain;
+  }
+  
+  .nav-group {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  
+  .nav-links a:hover {
+    opacity: 0.8;
+  }
+  
+  .intro-button {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: #083155;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    min-width: 164px;
+    height: 34px;
+    transition: background-color 0.2s;
+  }
+  
+  .intro-button:hover {
+    background-color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .header-container {
+      padding: 10px 15px;
+    }
+  
+    .nav-group {
+      gap: 20px;
+    }
+    
+    .nav-links {
+      gap: 20px;
+    }
+    
+    .nav-links a {
+      font-size: 14px;
+    }
+    
+    .intro-button {
+      font-size: 14px;
+      min-width: auto;
+      padding: 6px 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .header-container {
+      flex-direction: column;
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .nav-group {
+      flex-direction: column;
+      width: 100%;
+      gap: 15px;
+    }
+  
+    .nav-links {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .intro-button {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  

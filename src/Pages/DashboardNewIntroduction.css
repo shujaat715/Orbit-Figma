@@ -1,0 +1,61 @@
+.dashboard-new-introduction {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  .sidebar-container {
+    width: 241px;
+    min-height: 100vh;
+    flex-shrink: 0;
+    background-color: #082431;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px;
+    gap: 40px;
+    max-width: calc(100% - 241px);
+    overflow-x: auto;
+  }
+  
+  .form-section {
+    flex-grow: 1;
+    max-width: 522px;
+  }
+  
+  .instruction-section {
+    width: 468px;
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .new-introduction {
+      flex-direction: column;
+    }
+    
+    .main-content {
+      max-width: 100%;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .form-section,
+    .instruction-section {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar-container {
+      width: 100%;
+      min-height: auto;
+    }
+    
+    .main-content {
+      padding: 16px;
+    }
+  }
+  

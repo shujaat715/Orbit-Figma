@@ -1,0 +1,67 @@
+.main-m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082431;
+    padding: 20px;
+    height: 85px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1348px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Morbit-logo {
+    width: 107px;
+    height: 39px;
+    object-fit: contain;
+  }
+  
+  .m-group {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .m-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .intro-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro-button {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #083155;
+    cursor: pointer;
+    width: 164px;
+    height: 34px;
+  }
+  
+  .intro-button:hover {
+    opacity: 0.9;
+  }
+  

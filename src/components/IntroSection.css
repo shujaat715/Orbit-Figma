@@ -1,0 +1,105 @@
+.introContainer {
+    width: 100%;
+    max-width: 1348px;
+    min-height: 242px;
+    background-color: #CAD4DB;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoSection {
+    width: 338px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 116px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .contentSection {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .introText {
+    max-width: 383px;
+  }
+  
+  .welcomeText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #082431;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .benefitsSection {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+  }
+  
+  .benefitColumn {
+    flex: 1;
+    min-width: 300px;
+    max-width: 425px;
+  }
+  
+  .benefitTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0D1012;
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+  }
+  
+  .benefitDescription {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .introContainer {
+      flex-direction: column;
+      padding: 16px;
+    }
+  
+    .logoSection {
+      width: 280px;
+      height: 70px;
+    }
+  
+    .benefitsSection {
+      gap: 30px;
+    }
+  
+    .benefitTitle {
+      font-size: 28px;
+    }
+  
+    .benefitDescription {
+      font-size: 16px;
+    }
+  }
+  
+  

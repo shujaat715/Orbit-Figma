@@ -1,0 +1,105 @@
+.introduction-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 522px;
+  min-width: 320px;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: inherit;
+}
+
+.form-title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #082431;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0d1012;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-group textarea::placeholder {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.checkbox-item label {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #d9d9d9;
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

@@ -1,0 +1,59 @@
+.intro-container {
+    width: 534px;
+    min-height: 580px;
+    background-color: #082431;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .step-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .step-number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    min-width: 20px;
+    text-align: center;
+  }
+  
+  .step-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    flex: 1;
+    white-space: pre-line;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .intro-container {
+      width: 100%;
+      min-height: auto;
+      padding: 20px;
+    }
+    
+    .step-row {
+      gap: 16px;
+    }
+    
+    .step-number {
+      font-size: 28px;
+    }
+    
+    .step-text {
+      font-size: 16px;
+    }
+  }
+  
+  

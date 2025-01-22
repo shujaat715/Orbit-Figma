@@ -1,0 +1,23 @@
+/* src/pages/Email.css */
+.email-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .email-section,
+  .referral-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .email-section {
+    background-color: #fee7e705;
+  }
+  
+  .referral-section {
+    background-color: #f0ffee02;
+  }
+  

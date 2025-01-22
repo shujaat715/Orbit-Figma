@@ -1,0 +1,52 @@
+.faq {
+    width: 1348px;
+    padding: 42px 62px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .Forbit-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .orbit-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #083155;
+    text-align: center;
+    max-width: 1144px;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+  }
+  
+  .Forbit-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .Forbit-section {
+    flex: 1;
+    max-width: 417px;
+  }
+  
+  .Fsection-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #083155;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: #083155;
+    line-height: 1.5;
+  }
+  
+  

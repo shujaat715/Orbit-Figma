@@ -1,0 +1,96 @@
+.steps-section {
+    width: 100%;
+    min-width: 320px;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .steps-container {
+    max-width: 1400px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .step-card {
+    width: 443px;
+    height: 203px;
+    background-color: #082431;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .step-icon {
+    object-fit: contain;
+  }
+  
+  .step-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.4;
+    max-width: 280px;
+  }
+  
+  @media (max-width: 1440px) {
+    .steps-container {
+      gap: 20px;
+      padding: 0 20px;
+    }
+    
+    .step-card {
+      width: calc(33.33% - 14px);
+      min-width: 320px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .step-card {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .steps-section {
+      padding: 40px 15px;
+    }
+    
+    .step-card {
+      width: 100%;
+      height: auto;
+      min-height: 203px;
+    }
+    
+    .step-text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .steps-section {
+      padding: 30px 10px;
+    }
+    
+    .step-card {
+      min-width: 280px;
+      padding: 15px;
+    }
+    
+    .step-text {
+      font-size: 18px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.footer {
+    width: 1440px;
+    height: 253px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 62px 61px;
+    box-sizing: border-box;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .footer-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #083155;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  

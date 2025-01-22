@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    max-width: 1348px;
+    min-height: 232px;
+    background-color: #CAD4DB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #082431;
+    text-align: center;
+    max-width: 1192px;
+    margin: 0;
+  }
+  
+  .button {
+    width: 350px;
+    height: 63px;
+    background-color: #FFAA00;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #E69900;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+      min-height: 180px;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .button {
+      width: 280px;
+      height: 50px;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 24px;
+    }
+  
+    .button {
+      width: 250px;
+      font-size: 18px;
+    }
+  }
+  
+  
+

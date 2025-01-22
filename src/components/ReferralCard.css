@@ -1,0 +1,67 @@
+.referral-card {
+    width: 788px;
+    height: 580px;
+    background: #e3e4e8;
+    border-radius: 10px;
+    padding: 16px 42px;
+    box-sizing: border-box;
+  }
+  
+  .logo-container {
+    width: 228px;
+    height: 39px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+  
+  .logo {
+    width: 116.25px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .content {
+    padding: 0 10px;
+  }
+  
+  .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0d1012;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #082431;
+    margin-bottom: 32px;
+    line-height: 1.4;
+    max-width: 675px;
+  }
+  
+  .subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0d1012;
+    margin-bottom: 20px;
+  }
+  
+  .discount-text, .reward-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 32px;
+    line-height: 1.4;
+    max-width: 675px;
+  }
+  
+  

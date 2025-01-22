@@ -1,0 +1,124 @@
+.mainMenu {
+    width: 100%;
+    min-width: 320px;
+    height: 85px;
+    background-color: #082431;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    object-fit: contain;
+    width: 107px;
+    height: 39px;
+  }
+  
+  .menuGroup {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    white-space: nowrap;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .introButton {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 24px;
+    color: #083155;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    width: 164px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  
+  .introButton:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 1024px) {
+    .menuGroup {
+      gap: 20px;
+    }
+    
+    .links {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainMenu {
+      flex-direction: column;
+      height: auto;
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .menuGroup {
+      flex-direction: column;
+      width: 100%;
+      gap: 15px;
+    }
+  
+    .links {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+    }
+  
+    .introButton {
+      width: 100%;
+      max-width: 164px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mainMenu {
+      padding: 12px;
+    }
+    
+    .logo {
+      width: 90px;
+      height: 33px;
+    }
+    
+    .links a {
+      font-size: 14px;
+    }
+    
+    .introButton {
+      font-size: 14px;
+      height: 32px;
+    }
+  }
+  
