@@ -80,11 +80,11 @@ body {
 }
 
 .menu-item:hover {
-  background-color: #394150;
+  background-color: #eec110;
 }
 
 .menu-item.active {
-  background-color: #394150;
+  background-color: #eec110;
 }
 
 .menu-icon {
