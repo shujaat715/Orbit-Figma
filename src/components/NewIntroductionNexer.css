@@ -1,108 +1,159 @@
-.dashboard-container {
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  .sidebar {
-    width: 240px;
-    background-color: #083155;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-  }
-  
-  .logo-container {
-    padding: 20px;
-  }
-  
-  .Norbit-logo {
-    width: 149px;
-    height: 82px;
-    margin-left: 0;
-  }
-  
-  .menu-container {
-    padding: 20px;
-  }
-  
-  .menu-label {
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #ffffff;
-    opacity: 0.5;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
-  
-  .others-label {
-    margin-top: 30px;
-  }
-  
-  .menu-item {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .menu-item.active {
-    background-color: #ffaa00;
-  }
-  
-  .menu-icon {
-    width: 18px;
-    height: 17px;
-    margin-right: 12px;
-  }
-  
-  .menu-item span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-  }
-  
-  .main-content {
-    margin-left: 240px;
-    padding: 40px;
-    flex-grow: 1;
-  }
-  
-  .page-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #082431;
-    margin-bottom: 20px;
-    line-height: 23px;
-    text-align: center; /* Centers the text horizontally */
- 
-  white-space: nowrap; /* Prevents text from wrapping onto the next line */
-  
- 
+/* General Reset */
+body, html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 
-  
-  
-  .content-area {
-    width: 100%;
-  }
-  
-  .dashboard-screenshot {
-    width: 1083px;
-    height: 627px;
-    object-fit: contain;
-    margin-top: 80px; 
-   
-    margin-left: 0; /* Aligns the image to the left */
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 250px;
+  background-color:  rgba(8, 49, 85, 1);
+  ;
+  color: #fff;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.orbit-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #394150;
+}
+
+.menu-item.active {
+  background-color: #394150;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.others-label {
+  margin-top: 20px;
+}
+
+.form-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px 40px;
+  overflow-y: auto;
+}
+
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2b2f3e;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.form-group p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+p {
+  line-height: 1.5;
+}
+

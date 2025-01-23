@@ -40,7 +40,7 @@ const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDet
         />
       </div>
 
-      <div className="form-group">
+      <div className="Introform-group">
         <label htmlFor="role">Their role / position</label>
         <input
           type="text"
