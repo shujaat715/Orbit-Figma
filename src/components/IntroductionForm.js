@@ -1,22 +1,26 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import './IntroductionForm.css';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import "./IntroductionForm.css";
 
-const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDetails }) => {
+const IntroductionForm = () => {
+  const defaultName = "";
+  const defaultRole = "";
+  const defaultCompany = "";
+  const defaultDetails = "";
   const [formData, setFormData] = useState({
     name: defaultName,
     role: defaultRole,
     company: defaultCompany,
     details: defaultDetails,
     termsAgreed: false,
-    ndaAgreed: false
+    ndaAgreed: false,
   });
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
-    setFormData(prevState => ({
+    setFormData((prevState) => ({
       ...prevState,
-      [name]: type === 'checkbox' ? checked : value
+      [name]: type === "checkbox" ? checked : value,
     }));
   };
 
@@ -28,9 +32,11 @@ const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDet
   return (
     <form className="introduction-form" onSubmit={handleSubmit}>
       <h1 className="form-title">New Introduction to Nexer</h1>
-      
+
       <div className="form-group">
-        <label htmlFor="name">Name of the person you're introducing to Nexer</label>
+        <label htmlFor="name">
+          Name of the person you're introducing to Nexer
+        </label>
         <input
           type="text"
           id="name"
@@ -82,9 +88,11 @@ const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDet
             checked={formData.termsAgreed}
             onChange={handleInputChange}
           />
-          <label htmlFor="terms">I agree with the terms & conditions of this introduction</label>
+          <label htmlFor="terms">
+            I agree with the terms & conditions of this introduction
+          </label>
         </div>
-        
+
         <div className="checkbox-item">
           <input
             type="checkbox"
@@ -93,12 +101,14 @@ const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDet
             checked={formData.ndaAgreed}
             onChange={handleInputChange}
           />
-          <label htmlFor="nda">I agree with the non-disclosure agreement for this introduction</label>
+          <label htmlFor="nda">
+            I agree with the non-disclosure agreement for this introduction
+          </label>
         </div>
       </div>
 
-      <button 
-        type="submit" 
+      <button
+        type="submit"
         className="submit-button"
         disabled={!formData.termsAgreed || !formData.ndaAgreed}
       >
@@ -108,19 +118,4 @@ const IntroductionForm = ({ defaultName, defaultRole, defaultCompany, defaultDet
   );
 };
 
-IntroductionForm.propTypes = {
-  defaultName: PropTypes.string,
-  defaultRole: PropTypes.string,
-  defaultCompany: PropTypes.string,
-  defaultDetails: PropTypes.string
-};
-
-IntroductionForm.defaultProps = {
-  defaultName: '',
-  defaultRole: '',
-  defaultCompany: '',
-  defaultDetails: ''
-};
-
 export default IntroductionForm;
-

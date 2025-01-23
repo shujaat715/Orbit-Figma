@@ -1,7 +1,9 @@
-import React from 'react';
-import './IntroductionBanner.css';
+import React from "react";
+import "./IntroductionBanner.css";
 
-const IntroductionBanner = ({ title, buttonText }) => {
+const IntroductionBanner = ( ) => {
+  const title = "Ready to introduce people who need Nexer's help?";
+  const buttonText = "Make an introduction now";
   return (
     <div className="introduction-banner">
       <h1 className="introduction-title">{title}</h1>
@@ -10,10 +12,4 @@ const IntroductionBanner = ({ title, buttonText }) => {
   );
 };
 
-IntroductionBanner.defaultProps = {
-  title: "Ready to introduce people who need Nexer's help?",
-  buttonText: "Make an introduction now"
-};
-
 export default IntroductionBanner;
-
