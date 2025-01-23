@@ -42,12 +42,12 @@
     font-weight: 400;
   }
   
-  .intro-button-container {
+  .Mintro-button-container {
     display: flex;
     align-items: center;
   }
   
-  .intro-button {
+  .Mintro-button {
     background-color: #d9d9d9;
     border: none;
     border-radius: 20px;
@@ -61,7 +61,7 @@
     height: 34px;
   }
   
-  .intro-button:hover {
+  .Mintro-button:hover {
     opacity: 0.9;
   }
   

@@ -1,4 +1,4 @@
-.email-container {
+.Eemail-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 25px 0;
@@ -6,28 +6,32 @@
   flex-direction: column;
   font-family: 'Inter', sans-serif;
   color: #1a2028;
+
 }
 
-.logo-container {
+.Elogo-container {
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
 }
+.email-page{
+background-color: white;
 
-.logo {
+}
+.Elogo {
   width: 170px;
-  height: 44px;
+  height: 30px;
   object-fit: contain;
 }
 
-.email-content {
+.Eemail-content {
   padding: 0 60px;
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 32px;
 }
 
-.email-content p {
+.Eemail-content p {
   margin-bottom: 16px;
 }
 
@@ -61,6 +65,7 @@
   display: flex;
   justify-content: center;
   gap: 32px;
+  background-color: #e8e8e8;
 }
 
 .social-icon {

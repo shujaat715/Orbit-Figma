@@ -25,8 +25,8 @@ const MainM = () => {
           ))}
         </div>
 
-        <div className="intro-button-container">
-          <button className="intro-button">Make introduction</button>
+        <div className="Mintro-button-container">
+          <button className="Mintro-button">Make introduction</button>
         </div>
       </div>
     </nav>

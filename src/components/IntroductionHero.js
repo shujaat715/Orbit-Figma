@@ -37,7 +37,7 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
             <div className="dark-screen">
               <div className="screen-wrap">
                 <div className="screen">
-                  <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZD" alt="Screenshot" className="screenshot" />
+                  <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZD" alt="Screenshot" className="iscreenshot" />
                 </div>
               </div>
             </div>

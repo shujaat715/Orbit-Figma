@@ -30,7 +30,7 @@ const Header = () => {
             ))}
           </div>
 
-          <button className="intro-button">Make introduction</button>
+          <button className="Lintro-button">Make introduction</button>
         </div>
       </div>
     </nav>

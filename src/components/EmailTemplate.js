@@ -11,12 +11,12 @@ const EmailTemplate = ({
   referralLink = "https://tinyurl.com/orbit-referr"
 }) => {
   return (
-    <div className="email-container">
-      <div className="logo-container">
-        <img src="https://dashboard.codeparrot.ai/api/image/Z4_sUMFg4WXPOX17/nexer-1.png" alt="Nexer Logo" className="logo" />
+    <div className="Eemail-container">
+      <div className="Elogo-container">
+        <img src="https://dashboard.codeparrot.ai/api/image/Z4_sUMFg4WXPOX17/nexer-1.png" alt="Nexer Logo" className="Elogo" />
       </div>
       
-      <div className="email-content">
+      <div className="Eemail-content">
         <p>Hi {recipientName},</p>
         <p>It's {senderName} from {companyName}.</p>
         <p>I'm getting in touch to let you know about our referral program.</p>
