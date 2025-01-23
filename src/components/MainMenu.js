@@ -13,7 +13,7 @@ const MainMenu = () => {
       <img
         src={logo}
         alt="Orbit Logo"
-        className={styles.logo}
+        className={styles.Mlogo}
         width={107}
         height={39}
       />{" "}

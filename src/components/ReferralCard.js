@@ -4,8 +4,8 @@ import './ReferralCard.css';
 const ReferralCard = ({ userName = 'Jacob', company = 'ACME' }) => {
   return (
     <div className="referral-card">
-      <div className="logo-container">
-        <img src="https://dashboard.codeparrot.ai/api/image/Z5C2Pr3EVBdKOl4s/nexer-1.png" alt="Nexer Logo" className="logo" />
+      <div className="Rlogo-container">
+        <img src="https://dashboard.codeparrot.ai/api/image/Z5C2Pr3EVBdKOl4s/nexer-1.png" alt="Nexer Logo" className="Rlogo" />
       </div>
       
       <div className="content">

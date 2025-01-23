@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
   
-  .logo-container {
+  .Rlogo-container {
     width: 228px;
     height: 39px;
     background: #ffffff;
@@ -18,7 +18,7 @@
     margin-bottom: 28px;
   }
   
-  .logo {
+  .Rlogo {
     width: 116.25px;
     height: 30px;
     object-fit: contain;

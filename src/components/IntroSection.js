@@ -4,8 +4,8 @@ import styles from './IntroSection.css';
 const IntroSection = ({ userName = 'Jacob', company = 'ACME' }) => {
   return (
     <div className={styles.introContainer}>
-      <div className={styles.logoSection}>
-        <img src="https://dashboard.codeparrot.ai/api/image/Z5Cdm73EVBdKOl37/nexer-1.png" alt="Nexer Logo" className={styles.logo} />
+      <div className={styles.ilogoSection}>
+        <img src="https://dashboard.codeparrot.ai/api/image/Z5Cdm73EVBdKOl37/nexer-1.png" alt="Nexer Logo" className={styles.ilogo} />
       </div>
       
       <div className={styles.contentSection}>

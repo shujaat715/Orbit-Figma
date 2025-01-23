@@ -11,7 +11,7 @@
     box-sizing: border-box;
   }
   
-  .logo {
+  .Mlogo {
     object-fit: contain;
     width: 107px;
     height: 39px;
@@ -107,7 +107,7 @@
       padding: 12px;
     }
     
-    .logo {
+    .Mlogo {
       width: 90px;
       height: 33px;
     }
