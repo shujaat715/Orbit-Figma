@@ -1,17 +1,85 @@
 /* General Reset */
-body, html, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body,
+html,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -37,8 +105,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color:  rgba(8, 49, 85, 1);
-  ;
+  background-color: rgba(8, 49, 85, 1);
   color: #fff;
   padding: 20px 10px;
   display: flex;
@@ -120,43 +187,46 @@ body {
   color: #333;
 }
 
-.form-group {
+.ninform-group {
   margin-bottom: 15px;
 }
 .ninform-group {
   margin-bottom: 15px;
 }
-.form-group input[type="text"]{
-  width: 100%;
+.ninform-group input[type="text"] {
+  width: 50%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
 }
 .ninform-group input[type="date"] {
-  width: 45%;
+  width: 25%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
 }
-.form-group input[type="radio"],
-.form-group input[type="checkbox"] {
+.ninform-group input[type="radio"] {
   margin-right: 10px;
   width: 16px;
   height: 16px;
 }
-
-.form-group label {
+.ninform-group input[type="checkbox"] {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+.ninform-group label {
   font-size: 14px;
   color: #333;
 }
 
-.form-group input[type="text"]::placeholder {
+.nin1form-group input[type="text"]::placeholder {
   color: #aaa;
 }
 
-.form-group p {
+.ninform-group p {
   font-size: 12px;
   color: #666;
   margin-top: 5px;
@@ -166,3 +236,48 @@ p {
   line-height: 1.5;
 }
 
+.form-group input {
+  height:  50px;
+  padding: 10px;
+}
+
+.date-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-wrap .ninform-group {
+  flex: 1 !important;
+}
+
+.ninform-group input[type="date"] {
+  width: 100% !important;
+  height: 50px;
+}
+
+
+.targetted-wrap{
+  margin-left: 40px;
+}
+
+.form-container{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 40px !important;
+}
+
+.form-section h2{
+  margin-top: 50px !important;
+}
+
+.buyer-sub-text,.condition-sub-text{
+  border: 2px solid;
+  padding: 20px;
+}
+.condition-sub-text{
+  margin-top: 20px;
+}
+.ninform-group input[type="text"]{
+height: 35px!important;
+}

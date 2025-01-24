@@ -1,5 +1,5 @@
-import React from 'react';
-import './NewIntroductionNexer.css';
+import React from "react";
+import "./NewIntroductionNexer.css";
 
 const NewIntroductionNexer = ({
   onNewIntroduction,
@@ -92,66 +92,84 @@ const NewIntroductionNexer = ({
       </div>
 
       <div className="form-container">
-        <h1>New Introduction to Nexer</h1>
-        <div className="form-section">
-          <div className="form-group">
-            <input type="text" placeholder="Campaign name" />
+        {/*  */}
+        <div>
+          <h1>New Introduction to Nexer</h1>
+          <div className="form-section">
+            <div className="form-group">
+              <input type="text" placeholder="Campaign name" />
+            </div>
+            <div>
+              <div className="date-wrap">
+                <div className="ninform-group">
+                  <input type="date" placeholder="Start Date" />
+                </div>
+                <div className="ninform-group">
+                  <input type="date" placeholder="End Date" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="ninform-group">
-            <input type="date" placeholder="Start Date"  />
-          </div>
-          <div className="ninform-group">
-            <input type="date" placeholder="End Date" />
+          <div className="form-section">
+            <h2>TARGET</h2>
+            <div className="ninform-group">
+              <input type="radio" id="general" name="target" />
+              <label htmlFor="general">General</label>
+            </div>
+            <div className="ninform-group">
+              <input type="radio" id="targeted" name="target" />
+              <label htmlFor="targeted">Targeted</label>
+            </div>
+            <div className="targetted-wrap">
+              <div className="ninform-group">
+                <input type="checkbox" id="company" />
+                <label htmlFor="company">Company</label>
+              </div>
+              <div className="ninform-group">
+                <input type="checkbox" id="person" />
+                <label htmlFor="person">Person</label>
+              </div>
+              <div className="ninform-group">
+                <input type="checkbox" id="sector" />
+                <label htmlFor="sector">Sector/Industry</label>
+              </div>
+              <input type="text" placeholder="Name" />
+            </div>
           </div>
         </div>
+        {/*  */}
+
+        {/*  */}
         <div className="form-section">
-          <h2>Target</h2>
-          <div className="form-group">
-            <input type="radio" id="general" name="target" />
-            <label htmlFor="general">General</label>
-          </div>
-          <div className="form-group">
-            <input type="radio" id="targeted" name="target" />
-            <label htmlFor="targeted">Targeted</label>
-          </div>
-          <div className="form-group">
-            <input type="checkbox" id="company" />
-            <label htmlFor="company">Company</label>
-          </div>
-          <div className="form-group">
-            <input type="checkbox" id="person" />
-            <label htmlFor="person">Person</label>
-          </div>
-          <div className="form-group">
-            <input type="checkbox" id="sector" />
-            <label htmlFor="sector">Sector/Industry</label>
-          </div>
-          <input type="text" placeholder="Name" />
-        </div>
-        <div className="form-section">
-          <h2>Incentive</h2>
-          <div className="form-group">
+          <h2>INCENTIVE</h2>
+          <div className="ninform-group">
             <input type="radio" id="fixed" name="incentive" />
             <label htmlFor="fixed">Fixed fee</label>
           </div>
-          <div className="form-group">
+          <div className="ninform-group">
             <input type="radio" id="percentage" name="incentive" />
             <label htmlFor="percentage">Percentage</label>
           </div>
           <input type="text" placeholder="Amount or %" />
-          <p>
+          
+          <p className="condition-sub-text">
             Conditions e.g: paid on first year's revenue. Tiered percentage
             based on contract value
           </p>
         </div>
-        <div className="form-section">
-          <h2>Buyer Incentive</h2>
-          <p>
-            Unique offer available to the buyer as a result of this referral.
-            Eg: 10% discount on the first 6 months. Or additional services
-            provided at no cost
-          </p>
+        {/*  */}
+        {/*  */}
+        <div>
+          <div className="form-section">
+            <h2>BUYER INCENTIVE</h2>
+            <p className="buyer-sub-text">
+              Unique offer available to the buyer as a result of this referral.
+              Eg: 10% discount on the first 6 months. Or additional services
+              provided at no cost
+            </p>
+          </div>
         </div>
+        {/*  */}
       </div>
     </div>
   );
