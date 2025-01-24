@@ -123,19 +123,28 @@ body {
 .form-group {
   margin-bottom: 15px;
 }
-
-.form-group input[type="text"],
-.form-group input[type="date"] {
+.ninform-group {
+  margin-bottom: 15px;
+}
+.form-group input[type="text"]{
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
 }
-
+.ninform-group input[type="date"] {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
 .form-group input[type="radio"],
 .form-group input[type="checkbox"] {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .form-group label {

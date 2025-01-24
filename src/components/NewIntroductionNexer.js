@@ -97,11 +97,11 @@ const NewIntroductionNexer = ({
           <div className="form-group">
             <input type="text" placeholder="Campaign name" />
           </div>
-          <div className="form-group">
-            <input type="date" />
+          <div className="ninform-group">
+            <input type="date" placeholder="Start Date"  />
           </div>
-          <div className="form-group">
-            <input type="date" />
+          <div className="ninform-group">
+            <input type="date" placeholder="End Date" />
           </div>
         </div>
         <div className="form-section">
