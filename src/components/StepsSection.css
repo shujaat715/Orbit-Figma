@@ -28,10 +28,10 @@
   .icon-container {
     margin-bottom: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   
-  .step-icon {
+  .Sstep-icon {
     object-fit: contain;
   }
   
@@ -43,6 +43,8 @@
     margin: 0;
     line-height: 1.4;
     max-width: 280px;
+    margin-top: -95px;
+  margin-left: 65px
   }
   
   @media (max-width: 1440px) {
@@ -91,6 +93,7 @@
     
     .step-text {
       font-size: 18px;
+      
     }
   }
   

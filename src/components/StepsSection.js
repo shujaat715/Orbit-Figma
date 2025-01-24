@@ -28,9 +28,9 @@ const StepsSection = () => {
               <img
                 src={step.icon}
                 alt={`Step ${index + 1}`}
-                className="step-icon"
-                width={index === 0 ? "81" : index === 1 ? "94" : "94"}
-                height={index === 0 ? "81" : index === 1 ? "90" : "90"}
+                className="Sstep-icon"
+                width={index === 0 ? "81" : index === 1 ? "80" : "80"}
+                height={index === 0 ? "81" : index === 1 ? "80" : "80"}
               />
             </div>
             <p className="step-text">{step.text}</p>
