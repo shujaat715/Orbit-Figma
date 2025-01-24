@@ -33,7 +33,7 @@ const StepsSection = () => {
                 height={index === 0 ? "81" : index === 1 ? "80" : "80"}
               />
             </div>
-            <p className="step-text">{step.text}</p>
+            <p className="Sstep-text">{step.text}</p>
           </div>
         ))}
       </div>

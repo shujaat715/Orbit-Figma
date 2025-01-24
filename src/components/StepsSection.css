@@ -31,11 +31,11 @@
     align-items: flex-start;
   }
   
-  .Sstep-icon {
+  .step-icon {
     object-fit: contain;
   }
   
-  .step-text {
+  .Sstep-text {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 22px;
