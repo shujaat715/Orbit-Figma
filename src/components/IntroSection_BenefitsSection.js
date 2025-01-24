@@ -7,7 +7,7 @@ const IntroSection_BenefitsSection = ({
   industry = "financial services"
 }) => {
   return (
-    <div className="intro-benefits-container">
+    <div className="Nintro-benefits-container">
       <div className="intro-section">
         <div className="isblogo-container">
           <img src="https://dashboard.codeparrot.ai/api/image/Z5D1DnhIZI-ZK8bk/nexer-1.png" alt="Nexer Logo" className="logo-image" />
@@ -24,6 +24,7 @@ const IntroSection_BenefitsSection = ({
       </div>
 
       <div className="benefits-section">
+        
         <h2 className="benefits-title">
           Help your network & get them exclusive discounts
         </h2>

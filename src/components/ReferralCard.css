@@ -5,6 +5,7 @@
     border-radius: 10px;
     padding: 16px 42px;
     box-sizing: border-box;
+    margin-top: 6px;
   }
   
   .Rlogo-container {
@@ -36,7 +37,7 @@
     margin-bottom: 20px;
   }
   
-  .intro-text {
+  .Rcintro-text {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -64,4 +65,15 @@
     max-width: 675px;
   }
   
-  
+  .Rccta-button {
+    background: #ff5722;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    width: 450px;
+  }

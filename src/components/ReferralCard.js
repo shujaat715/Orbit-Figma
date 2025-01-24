@@ -11,7 +11,7 @@ const ReferralCard = ({ userName = 'Jacob', company = 'ACME' }) => {
       <div className="content">
         <h1 className="Rtitle">Help your network</h1>
         
-        <p className="intro-text">
+        <p className="Rcintro-text">
           Hey {userName} - Because of your role at {company} and network across financial 
           services we think you might know people at companies that would benefit 
           from Nexer's services.
@@ -30,7 +30,11 @@ const ReferralCard = ({ userName = 'Jacob', company = 'ACME' }) => {
           If you're introduction results in a partnership you will earn a thank you 
           payment of £5000
         </p>
+        <button className="Rccta-button">
+          Make an introduction now
+        </button>
       </div>
+      
     </div>
   );
 };
