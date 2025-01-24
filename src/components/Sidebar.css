@@ -1,4 +1,4 @@
-.sidebar {
+.ssidebar {
   width: 240px;
   min-height: 100vh;
   background-color: #083155;
@@ -12,10 +12,10 @@
   margin-bottom: 30px;
 }
 
-.logo {
+.slogo {
   
-  width: 100px;
-  height: 8px;
+  width: 150px;
+  height: 80px;
   object-fit: contain;
 }
 

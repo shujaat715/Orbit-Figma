@@ -9,7 +9,7 @@ const ReferralCard = ({ userName = 'Jacob', company = 'ACME' }) => {
       </div>
       
       <div className="content">
-        <h1 className="title">Help your network</h1>
+        <h1 className="Rtitle">Help your network</h1>
         
         <p className="intro-text">
           Hey {userName} - Because of your role at {company} and network across financial 

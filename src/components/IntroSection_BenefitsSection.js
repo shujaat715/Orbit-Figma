@@ -9,7 +9,7 @@ const IntroSection_BenefitsSection = ({
   return (
     <div className="intro-benefits-container">
       <div className="intro-section">
-        <div className="logo-container">
+        <div className="isblogo-container">
           <img src="https://dashboard.codeparrot.ai/api/image/Z5D1DnhIZI-ZK8bk/nexer-1.png" alt="Nexer Logo" className="logo-image" />
         </div>
         

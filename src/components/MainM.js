@@ -12,7 +12,7 @@ const MainM = () => {
   const logoAlt = "Orbit Logo";
   return (
     <nav className="main-m">
-      <div className="logo-container">
+      <div className="mmlogo-container">
         <img src={logoSrc} alt={logoAlt} className="Morbit-logo" />
       </div>
 

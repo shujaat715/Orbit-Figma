@@ -4,7 +4,7 @@ import styles from './HowItWorks.css';
 const HowItWorks = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>How making an introduction works</h2>
+      <h2 className={styles.HWtitle}>How making an introduction works</h2>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <div className={styles.iconWrapper}>

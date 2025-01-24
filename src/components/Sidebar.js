@@ -44,12 +44,12 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="sidebar">
+    <div className="ssidebar">
       <div className="logo-container">
         <img
           src="https://dashboard.codeparrot.ai/api/image/Z5CFhMFg4WXPOX3G/orbit-lo.png"
           alt="Orbit Logo"
-          className="logo"
+          className="slogo"
         />
       </div>
 

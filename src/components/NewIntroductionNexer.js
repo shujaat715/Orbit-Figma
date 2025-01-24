@@ -13,7 +13,7 @@ const NewIntroductionNexer = ({
   return (
     <div className="dashboard-container">
       <div className="sidebar">
-        <div className="logo-container">
+        <div className="ninlogo-container">
           <img
             src="https://dashboard.codeparrot.ai/api/image/Z5HonfA8XwfbJP7a/orbit-lo.png"
             alt="Orbit Logo"
