@@ -3,7 +3,7 @@ import './FAQ.css';
 
 const FAQ = ({
   title = "Orbit enhances your professional reputation",
-  description = "When you make an introduction, you're solving a problem for your network by connecting them to trusted expertise./ Your recommendation gives them access to services they might not have found otherwise. And thanks to you, at a reduced cost.",
+  description = "When you make an introduction, you're solving a problem for your network by connecting them to trusted expertise. Your recommendation gives them access to services they might not have found otherwise. And thanks to you, at a reduced cost.",
   sections = [
     {
       title: "It's About Trust and Integrity",

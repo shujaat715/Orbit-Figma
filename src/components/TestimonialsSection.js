@@ -24,17 +24,17 @@ const TestimonialsSection = () => {
         You have 6 colleagues who have earned over £4000 in the last month for
         their introductions
       </h2>
-      <div className="testimonials-container">
+      <div className="Ttestimonials-container">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-card">
             <img
               src={testimonial.image}
               alt={testimonial.name}
-              className="testimonial-image"
+              className="Ttestimonial-image"
             />
-            <div className="testimonial-content">
+            <div className="Ttestimonial-content">
               <p className="testimonial-name">{testimonial.name}</p>
-              <p className="testimonial-quote">"{testimonial.quote}"</p>
+              <p className="Ttestimonial-quote">"{testimonial.quote}"</p>
             </div>
           </div>
         ))}

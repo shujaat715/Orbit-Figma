@@ -39,6 +39,9 @@
     width: 116px;
     height: 30px;
     object-fit: contain;
+    border-radius: 1px;
+    background-color: #FFFFFF08;
+  
   }
   
   .intro-text {

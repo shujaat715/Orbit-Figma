@@ -28,7 +28,7 @@ const StepsSection = () => {
               <img
                 src={step.icon}
                 alt={`Step ${index + 1}`}
-                className="Sstep-icon"
+                className="step-icon"
                 width={index === 0 ? "81" : index === 1 ? "80" : "80"}
                 height={index === 0 ? "81" : index === 1 ? "80" : "80"}
               />

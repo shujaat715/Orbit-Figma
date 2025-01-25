@@ -3,6 +3,12 @@
     padding: 42px 62px;
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #10082bb8;
+    margin-top: 25px;
+    white-space: pre-wrap;
+  
   }
   
   .Forbit-title {

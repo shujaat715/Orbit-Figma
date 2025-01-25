@@ -20,12 +20,14 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    margin-top: -80px;
+    margin-left: 20px;
   }
   
   .testimonial {
     display: flex;
     gap: 40px;
-    max-width: 450px;
+    max-width: 500px;
   }
   
   .testimonial-image {
@@ -33,12 +35,15 @@
     height: 96px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 110px;
   }
   
   .testimonial-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-top: 100px;
+    margin-right: 25px;
   }
   
   .testimonial-header {

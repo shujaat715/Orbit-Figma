@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #FFFFFF;
+    background: #FFFFFF08;
     border-radius: 10px;
     margin: 0 auto;
     max-width: 1348px;
@@ -18,7 +18,7 @@
     line-height: 49px;
     color: #000000;
     text-align: center;
-    max-width: 1169px;
+    max-width: 11600px; 
     margin-bottom: 31px;
   }
   
@@ -27,7 +27,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
-    color: #083155;
+    color: #10082bb8;
     text-align: center;
     max-width: 1144px;
     margin-bottom: 25px;
@@ -54,20 +54,23 @@
   .enhance-reputation__card-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 23px;
-    color: #083155;
+    color: #10082bb8;
     margin: 0;
   }
   
   .enhance-reputation__card-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
-    color: #083155;
-    white-space: pre-wrap;
+    color: #10082bb8;
+    max-width: 1144px;
+    margin-bottom: 25px;
+    white-space: pre-wrap;    
     margin: 0;
+ 
   }
   
   @media (max-width: 1280px) {
