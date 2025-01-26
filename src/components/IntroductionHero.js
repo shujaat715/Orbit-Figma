@@ -5,9 +5,13 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
   return (
     <div className="hero-container">
       <nav className="main-menu">
-        <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZB" alt="Orbit Logo" className="orbit-logo" />
+        <img 
+          src="https://dashboard.codeparrot.ai/api/image/Z5ZjrMAVJ0Xbb6Gz/orbit-lo.png" 
+          alt="Orbit Logo" 
+          className="orbit-logo"
+        />
         <div className="nav-right">
-          <div className="intro-button">
+          <div className="Hintro-button">
             <span>Make introduction</span>
           </div>
           <div className="nav-links">
@@ -18,15 +22,19 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
         </div>
       </nav>
 
-      <div className="content-wrapper">
+      <div className="content-section">
         <div className="left-content">
-          <div className="company-logo">
-            <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZC" alt="Company Logo" />
-          </div>
-          <h1 className="intro-heading">
+          <img 
+            src="https://dashboard.codeparrot.ai/api/image/Z5ZjrMAVJ0Xbb6Gz/logo.png" 
+            alt="Company Logo" 
+            className="company-logo"
+          />
+          <h1 className="Hintro-text">
             Hey {userName} - if you're ready to help your network and make an introduction to {companyName}
           </h1>
-          <button className="cta-button">Click here</button>
+          <button className="Hcta-button">
+            Click here
+          </button>
           <p className="sub-text">
             Or to find out more about how introductions work, keep reading
           </p>
@@ -34,19 +42,19 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
 
         <div className="macbook-preview">
           <div className="macbook-lid">
-            <div className="dark-screen">
-              <div className="screen-wrap">
-                <div className="screen">
-                  <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZD" alt="Screenshot" className="iscreenshot" />
-                </div>
+            <div className="screen-wrap">
+              <div className="dark-screen">
+                <img 
+                  src="https://dashboard.codeparrot.ai/api/image/Z5ZjrMAVJ0Xbb6Gz/screensh.png" 
+                  alt="Screenshot" 
+                  className="screen-content"
+                />
               </div>
             </div>
           </div>
-          <div className="macbook-bottom">
-            <img src="https://dashboard.codeparrot.ai/api/assets/Z4qERa44F0YMkTZE" alt="Bottom" />
-          </div>
+          <div className="macbook-bottom"></div>
           <div className="macbook-shadow"></div>
-          <span className="device-label">Macbook Air</span>
+          <span className="macbook-label">Macbook Air</span>
         </div>
       </div>
     </div>
@@ -54,4 +62,3 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
 };
 
 export default IntroductionHero;
-

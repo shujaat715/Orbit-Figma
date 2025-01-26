@@ -1,12 +1,16 @@
 .introduction1-hero{
     width: 90%;
-    min-height: 445px;
+    min-height: 250px;
     background-color: #1739574f;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 52px 80px;
     box-sizing: border-box;
+    block-size: 250px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: 70px;
   }
   
   .introduction1-hero__title {
@@ -33,6 +37,8 @@
     color: #000000;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: -40px;
+    padding: 10px;
   }
   
   .introduction1-hero__cta:hover {

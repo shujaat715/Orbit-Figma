@@ -1,48 +1,56 @@
 import React from 'react';
 import './BenefitsSection.css';
 
-const BenefitsSection = ({ 
-  title = "Everyone benefits from your introductions",
-  subtitle = "With your introduction, your network receive an exclusive discount, making it even easier for them to access Nexer's services.",
-  description = "You strengthen your network and earn a well-deserved thank-you.",
-  steps = [
-    {
-      icon: "https://dashboard.codeparrot.ai/api/assets/Z4qCLhgaGNOSvOeV",
-      text: "Look out for people or companies you know that could benefit from Nexer's services"
-    },
-    {
-      icon: "https://dashboard.codeparrot.ai/api/assets/Z4qCLhgaGNOSvOeW",
-      text: "Log them in Orbit - it only takes a minute. Then make the introduction in the way that feels best to you—email, LinkedIn, or even a quick call."
-    },
-    {
-      icon: "https://dashboard.codeparrot.ai/api/assets/Z4qCLhgaGNOSvOeX",
-      text: "That's it. Nexer will take it from here. If they become a client, they'll get a discount thanks to you, and you'll earn a thank-you payment! It's a win-win!"
-    }
-  ]
-}) => {
+const BenefitsSection = () => {
   return (
-    <div className="benefits-section">
-      <div className="background-image">
-        <img src="https://dashboard.codeparrot.ai/api/assets/Z4qCLhgaGNOSvOeY" alt="background" />
-      </div>
-      
-      <div className="content-container">
-        <h1 className="title">{title}</h1>
-        <div className="subtitle-container">
-          <p className="subtitle">{subtitle}</p>
-          <p className="description">{description}</p>
-        </div>
+    <div className="Bbenefits-container">
+      <img 
+        src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/group-9.png" 
+        alt="Background" 
+        className="benefits-background-image" 
+      />
+      <div className="benefits-content">
+        <h1 className="benefits-heading">Everyone benefits from<br />your introductions</h1>
+        <p className="benefits-intro-text">
+          With your introduction, your network receive an exclusive discount, making it even easier for them to access Nexer's services.<br /><br />
+          You strengthen your network and earn a well-deserved thank-you.
+        </p>
 
         <div className="steps-container">
-          {steps.map((step, index) => (
-            <div key={index} className="step-card">
-              <img src={step.icon} alt={`Step ${index + 1}`} className="step-icon" />
-              <p className="step-text">{step.text}</p>
-            </div>
-          ))}
+          <div className="step">
+            <img 
+              src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/healthic.png" 
+              alt="Search" 
+              className="step-icon" 
+            />
+            <p>Look out for people or companies you know that could benefit from Nexer's services</p>
+          </div>
+
+          <div className="step">
+            <img 
+              src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/group-2.png" 
+              alt="Chat" 
+              className="step-icon" 
+            />
+            <p>Log them in Orbit - it only takes a minute.<br />Then make the introduction in the way that feels best to you—email, LinkedIn, or even a quick call.</p>
+          </div>
+
+          <div className="step">
+            <img 
+              src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/mdi-pres.png" 
+              alt="Gift" 
+              className="step-icon" 
+            />
+            <p>That's it. Nexer will take it from here.<br /><br />
+            If they become a client, they'll get a discount thanks to you, and you'll earn a thank-you payment!<br /><br />
+            It's a win-win!</p>
+          </div>
         </div>
 
-        <button className="cta-button">
+        <button 
+          className="benefits-button"
+          onClick={() => console.log('Make introduction clicked')}
+        >
           Make a introduction now
         </button>
       </div>
@@ -51,4 +59,3 @@ const BenefitsSection = ({
 };
 
 export default BenefitsSection;
-

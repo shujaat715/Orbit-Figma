@@ -1,132 +1,49 @@
-.container {
-    width: 100%;
-    max-width: 1348px;
-    min-height: 386px;
-    padding: 26px 30px 40px;
-    background-color: #f4b183;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
-  .HWtitle {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #083155;
-    margin: 0;
-    padding-left: 30px;
-  }
-  
-  .cardsContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-    padding: 0 2px;
-  }
-  
-  .card {
-    width: 350px;
-    min-height: 148px;
-    background-color: #e16109;
-    border-radius: 10px;
-    padding: 36px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .card:last-child {
-    min-height: 252px;
-  }
-  
-  .iconWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 81px;
-  }
-  
-  .icon {
-    object-fit: contain;
-  }
-  
-  .textWrapper {
-    flex: 1;
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .cardText {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    white-space: pre-line;
-  }
-  
-  @media (max-width: 1200px) {
-    .cardsContainer {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      width: 100%;
-      max-width: 350px;
-    }
-  
-    .container {
-      gap: 32px;
-      padding: 24px 20px 32px;
-    }
-  
-    .HWtitle {
-      padding-left: 0;
-      text-align: center;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      padding: 20px 15px 28px;
-      gap: 24px;
-    }
-  
-    .HWtitle {
-      font-size: 28px;
-    }
-  
-    .card {
-      padding: 24px 16px;
-      gap: 16px;
-    }
-  
-    .cardText {
-      font-size: 16px;
-    }
-  
-    .cardsContainer {
-      gap: 24px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .HWtitle {
-      font-size: 24px;
-    }
-  
-    .card {
-      padding: 20px 12px;
-    }
-  
-    .cardText {
-      font-size: 15px;
-    }
-  }
-  
+/* Container styling */
+.howitworks-container {
+  background-color: #f4b183;
+  border-radius: 10px;
+  padding: 26px 30px;
+  width: 100%;
+  max-width: 1348px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+/* Title styling */
+.howitworks-title {
+  color: #083155;
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* Card container */
+.howitworks-card-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+/* Individual card styling */
+.howitworks-card {
+  background-color: #e16109;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Icon styling */
+.howitworks-icon {
+  width: 81px;
+  height: 81px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
