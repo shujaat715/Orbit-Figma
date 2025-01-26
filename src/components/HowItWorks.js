@@ -1,10 +1,10 @@
 import React from 'react';
-import './HowitWorks.css';
+import './HowItWorks.css';
 
-const HowitWorks = () => {
+const HowItWorks = () => {
   return (
     <div className="howitworks-container">
-      <h1 className="howitworks-title">How making an introduction works</h1>
+      <h1 className="howItworks-title">How making an introduction works</h1>
       
       <div className="howitworks-card-container">
         <div className="howitworks-card">
@@ -42,4 +42,4 @@ const HowitWorks = () => {
   );
 };
 
-export default HowitWorks;
+export default HowItWorks;
