@@ -4,7 +4,7 @@ import IntroductionHero from '../components/IntroductionHero';
 import BenefitsSection from '../components/BenefitsSection';
 import Confidence from '../components/Confidence';
 import OrbitReputation from '../components/OrbitReputation';
-import IntroductionH from '../components/IntroductionH';
+import IntroductionHH from '../components/IntroductionHH';
 import Footer from '../components/Footer';
 
 const LandingPage = () => {
@@ -14,7 +14,7 @@ const LandingPage = () => {
       <BenefitsSection />
       <Confidence />
       <OrbitReputation />
-      <IntroductionH />
+      <IntroductionHH />
       <Footer />
     </div>
   );

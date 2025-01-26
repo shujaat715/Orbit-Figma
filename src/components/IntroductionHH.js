@@ -1,7 +1,7 @@
 import React from 'react';
-import './IntroductionH.css';
+import './IntroductionHH.css';
 
-const IntroductionH = ({ 
+const IntroductionHH = ({ 
   title = "Ready to introduce people who need Nexer's help?",
   buttonText = "Make a introduction now",
   onButtonClick = () => {}
@@ -21,5 +21,5 @@ const IntroductionH = ({
   );
 };
 
-export default IntroductionH;
+export default IntroductionHH;
 
