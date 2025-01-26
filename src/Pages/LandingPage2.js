@@ -1,12 +1,11 @@
 import React from "react";
-import MainMenu from "../components/MainMenu";
+import MainM from "../components/MainM";
 import IntroSection from "../components/IntroSection";
 import HowItWorks from "../components/HowItWorks";
 import FAQSection from "../components/FAQSection";
-import ConfidenceSection from "../components/ConfidenceSection";
-import CallToAction from "../components/CallToAction";
 import "../components/global.css";
-
+import Confidence from "../components/Confidence";
+import IntroductionH1 from "../components/IntroductionH1";
 const LandingPage2 = () => {
   return (
     <div className="LandingPage2">
@@ -52,37 +51,17 @@ const LandingPage2 = () => {
       `}</style>
 
       <div className="content-wrapper">
-        <MainMenu />
+        <MainM />
         <IntroSection />
         <HowItWorks />
         <FAQSection />
+        <Confidence/>
+        <IntroductionH1/>
       </div>
 
-      <div className="full-width-section">
-        <div style={{ width: "100%", maxWidth: "1440px", padding: "0 20px" }}>
-          <ConfidenceSection
-            testimonials={[
-              {
-                image:
-                  "https://dashboard.codeparrot.ai/api/image/Z5Cdm73EVBdKOl37/screensh.png",
-                name: "John Smith - Designer",
-                text: "Introducing Nexer to my current employer was super simple and it was great to be able to help both companies... and be paid for it",
-              },
-              {
-                image:
-                  "https://dashboard.codeparrot.ai/api/image/Z5Cdm73EVBdKOl37/screensh-2.png",
-                name: "Alison Anderson - Tech lead",
-                text: "I knew Nexer could help my current employer, so I introduced them. I would have done it anyway, but by using orbit my friend got a discount as well",
-              },
-            ]}
-          />
-        </div>
-      </div>
-
-      <div className="content-wrapper" style={{ paddingBottom: "60px" }}>
-        <CallToAction />
-      </div>
+      <div> </div>
     </div>
+    
   );
 };
 

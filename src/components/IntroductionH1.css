@@ -1,0 +1,46 @@
+.introduction1-hero{
+    width: 100%;
+    min-height: 445px;
+    background-color: #083155;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px 80px;
+    box-sizing: border-box;
+  }
+  
+  .introduction1-hero__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 1192px;
+    margin: 0;
+    margin-bottom: 93px;
+    line-height: 1.1;
+  }
+  
+  .introduction1-hero__cta {
+    width: 350px;
+    height: 63px;
+    background-color: #FFAA00;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .introduction1-hero__cta:hover {
+    background-color: #FFB824;
+  }
+  
+  .introduction1-hero__cta:active {
+    background-color: #E69900;
+  }
+  
+  
