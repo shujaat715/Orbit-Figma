@@ -71,8 +71,8 @@
 .menu-item img {
   display: block;
   top: 20px;
-  max-width: 50px;
-  height: 29px;
+  width: 25px;
+  height: 25px;
 }
 
 @media (max-width: 768px) {

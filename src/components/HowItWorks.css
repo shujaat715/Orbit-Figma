@@ -23,6 +23,7 @@
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* Individual card styling */
@@ -46,4 +47,7 @@
   height: 81px;
   object-fit: contain;
   margin-bottom: 10px;
+  position: relative;
+  top: -16px;
+  left: 285px;
 }

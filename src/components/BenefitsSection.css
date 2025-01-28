@@ -16,6 +16,7 @@
   z-index: 1;
   background-color: #667171;
   margin-top: -70px;
+  border-radius: 200px 200px 0px 0px;
 }
 
 /* Background image */
@@ -26,6 +27,7 @@
   width: 1931px;
   height: 855px;
   z-index: 0;
+  display: none;
 }
 
 /* Heading styles */
@@ -34,9 +36,8 @@
   font-weight: 700;
   font-size: 42px;
   color: #083155;
-  margin-left: 80px;
+  margin-left: 130px;
   margin-top: 103px;
-  max-width: 1122px;
 }
 
 /* Intro text */

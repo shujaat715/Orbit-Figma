@@ -24,7 +24,7 @@
   
   .timeline-line {
     position: absolute;
-    left: 17px;
+    left: 60px;
     top: 40px;
     width: 2px;
     height: calc(100% - 80px);

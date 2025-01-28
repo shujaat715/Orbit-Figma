@@ -58,7 +58,7 @@ const DashboardIntroductions = () => {
               <span style={{ color: '#6B7280', fontSize: '14px', fontWeight: 500 }}>Introduced to</span>
               <span style={{ color: '#6B7280', fontSize: '14px', fontWeight: 500 }}>Date</span>
               <span style={{ color: '#6B7280', fontSize: '14px', fontWeight: 500 }}>Introduction fee</span>
-              <span style={{ color: '#6B7280', fontSize: '14px', fontWeight: 500 }}>Status</span>
+              <span style={{ color: '#6B7280', fontSize: '14px', fontWeight: 500 ,textAlign:"end"}}>Status</span>
             </div>
           </div>
 

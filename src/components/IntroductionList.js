@@ -32,7 +32,7 @@ const IntroductionList = ({ introductions = [
           <div className="intro-contact">{intro.contact}</div>
           <div className="intro-date">{intro.date}</div>
           <div className="intro-fee">{intro.fee}</div>
-          <div className="intro-status">
+          <div className="intro-status" style={{display:"flex",justifyContent:"end"}}>
             <span className="status-badge">{intro.status}</span>
           </div>
         </div>
