@@ -2,10 +2,7 @@
 .Bbenefits-container {
   background-color: #083155;
   width: 100%;
-  min-height: 855px;
   position: relative;
-  overflow: hidden;
-  padding: 40px 0;
 }
 
 /* Content area */
@@ -14,9 +11,10 @@
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  background-color: #667171;
-  margin-top: -70px;
-  border-radius: 200px 200px 0px 0px;
+  padding: 40px;
+  background: rgb(217, 217, 217);
+  position: relative;
+  top: 100px;
 }
 
 /* Background image */
@@ -36,8 +34,7 @@
   font-weight: 700;
   font-size: 42px;
   color: #083155;
-  margin-left: 130px;
-  margin-top: 103px;
+ 
 }
 
 /* Intro text */
@@ -46,9 +43,6 @@
   font-weight: 400;
   font-size: 24px;
   color: #083155;
-  margin-left: 79px;
-  margin-top: 30px;
-  max-width: 869px;
 }
 
 /* Steps container */
@@ -59,7 +53,6 @@
   margin: 40px auto;
   display: flex;
   justify-content: space-between;
-  max-width: 1439px;
 }
 
 /* Individual step */
@@ -77,6 +70,9 @@
   width: 80px;
   height: 80px;
   margin-bottom: 20px;
+  position: relative;
+  top: -30px;
+  left: -24px;
 }
 
 /* Button styles */

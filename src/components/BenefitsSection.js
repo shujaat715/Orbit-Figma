@@ -1,13 +1,16 @@
 import React from "react";
 import "./BenefitsSection.css";
+import shape from "../img/shape.png"
 
 const BenefitsSection = () => {
   return (
-    <div className="Bbenefits-container">
+    <div
+      className="Bbenefits-container"
+    >
       <img
-        src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/group-9.png"
+      src={shape}
         alt="Background"
-        className="benefits-background-image"
+        style={{position:"absolute"}}
       />
       <div className="benefits-content">
         <h1 className="benefits-heading">
@@ -25,15 +28,15 @@ const BenefitsSection = () => {
 
         <div className="steps-container">
           <div className="step">
+            <p>
+              Look out for people or companies you know that could benefit from
+              Nexer's services
+            </p>
             <img
               src="https://dashboard.codeparrot.ai/api/image/Z5ZlJcAVJ0Xbb6G0/healthic.png"
               alt="Search"
               className="step-icon"
             />
-            <p>
-              Look out for people or companies you know that could benefit from
-              Nexer's services
-            </p>
           </div>
 
           <div className="step">
