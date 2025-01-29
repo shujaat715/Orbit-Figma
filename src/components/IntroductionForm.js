@@ -46,14 +46,17 @@ const IntroductionForm = () => {
         />
       </div>
 
+<div style={{display:"flex",flexDirection:"column",gap:"20px"}}>
+
       <div className="Introform-group">
-        <label htmlFor="role">Their role / position</label>
+        <label htmlFor="role" style={{marginBottom:"20px !important"}}>Their role / position</label>
         <input
           type="text"
           id="role"
           name="role"
           value={formData.role}
           onChange={handleInputChange}
+          style={{marginTop:"10px"}}
         />
       </div>
 
@@ -66,6 +69,7 @@ const IntroductionForm = () => {
           value={formData.company}
           onChange={handleInputChange}
         />
+      </div>
       </div>
 
       <div className="form-group">

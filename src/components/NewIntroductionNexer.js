@@ -97,15 +97,27 @@ const NewIntroductionNexer = ({
           <h1>New Introduction to Nexer</h1>
           <div className="form-section">
             <div className="form-group">
-              <input type="text" placeholder="Campaign name" />
+              <input
+                type="text"
+                placeholder="Campaign name"
+                style={{ border: "2px solid", borderRadius: "8px" }}
+              />
             </div>
             <div>
               <div className="date-wrap">
                 <div className="ninform-group">
-                  <input type="date" placeholder="Start Date" />
+                  <input
+                    type="date"
+                    placeholder="Start Date"
+                    style={{ border: "2px solid", borderRadius: "8px" }}
+                  />
                 </div>
                 <div className="ninform-group">
-                  <input type="date" placeholder="End Date" />
+                  <input
+                    type="date"
+                    placeholder="End Date"
+                    style={{ border: "2px solid", borderRadius: "8px" }}
+                  />
                 </div>
               </div>
             </div>
@@ -133,7 +145,11 @@ const NewIntroductionNexer = ({
                 <input type="checkbox" id="sector" />
                 <label htmlFor="sector">Sector/Industry</label>
               </div>
-              <input type="text" placeholder="Name" />
+              <input
+                type="text"
+                placeholder="Name"
+                style={{ borderRadius: "8px" }}
+              />
             </div>
           </div>
         </div>
@@ -150,9 +166,13 @@ const NewIntroductionNexer = ({
             <input type="radio" id="percentage" name="incentive" />
             <label htmlFor="percentage">Percentage</label>
           </div>
-          <input type="text" placeholder="Amount or %" />
-          
-          <p className="condition-sub-text">
+          <input
+            type="text"
+            placeholder="Amount or %"
+            style={{ border: "2px solid", borderRadius: "8px" }}
+          />
+
+          <p className="condition-sub-text" style={{ borderRadius: "8px" }}>
             Conditions e.g: paid on first year's revenue. Tiered percentage
             based on contract value
           </p>
@@ -162,7 +182,7 @@ const NewIntroductionNexer = ({
         <div>
           <div className="form-section">
             <h2>BUYER INCENTIVE</h2>
-            <p className="buyer-sub-text">
+            <p className="buyer-sub-text" style={{ borderRadius: "8px" }}>
               Unique offer available to the buyer as a result of this referral.
               Eg: 10% discount on the first 6 months. Or additional services
               provided at no cost

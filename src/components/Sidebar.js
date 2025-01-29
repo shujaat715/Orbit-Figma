@@ -53,7 +53,7 @@ const Sidebar = () => {
         />
       </div>
 
-      <nav className="menu">
+      <nav className="menu" style={{padding:"0px"}}>
         <span className="menu-label">MENU</span>
         <ul className="menu-list">
           {menuItems.map((item) => (
