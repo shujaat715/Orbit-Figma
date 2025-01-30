@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Sidebar.css";
-
+import { Link } from "react-router-dom";
 const Sidebar = () => {
   const menuItems = [
     {
@@ -14,6 +14,7 @@ const Sidebar = () => {
       id: "track",
       label: "Track introductions",
       icon: "https://dashboard.codeparrot.ai/api/image/Z5CFhMFg4WXPOX3G/iconly-b-6.png",
+      path: "/dashboard-Introductions",
     },
     {
       id: "find",
@@ -56,13 +57,16 @@ const Sidebar = () => {
       <nav className="menu" style={{padding:"0px"}}>
         <span className="menu-label">MENU</span>
         <ul className="menu-list">
+          
           {menuItems.map((item) => (
             <li
               key={item.id}
               className={`menu-item ${item.isActive ? "active" : ""}`}
             >
+              <Link to={item.path} className="menu-link">
               <img src={item.icon} alt="" className="menu-icon" />
               <span className="menu-text">{item.label}</span>
+              </Link>
             </li>
           ))}
         </ul>

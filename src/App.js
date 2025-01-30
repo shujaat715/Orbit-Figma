@@ -17,7 +17,7 @@ const App = () => {
     <Router>
       <div className="app-container">
         {/* Navigation Menu */}
-        <nav className="navigation-menu">
+        {/* <nav className="navigation-menu"> 
           <ul>
             <li><Link to="/email">Email</Link></li>
             <li><Link to="/login">Login</Link></li>
@@ -30,7 +30,7 @@ const App = () => {
             <li><Link to="/landing-page4">Landing Page 4</Link></li>
             <li><Link to="/landing-page5">Landing Page 5</Link></li>
           </ul>
-        </nav>
+        </nav>*/}
 
         {/* Routes */}
         <Routes>

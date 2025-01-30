@@ -2,7 +2,7 @@ import React from "react";
 import "./IntroductionHero.css";
 import laptop from "../img/laptop.png";
 import screen from "../img/screen.png";
-
+import { Link } from "react-router-dom";
 const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
   return (
     <div className="hero-container">
@@ -35,7 +35,9 @@ const IntroductionHero = ({ userName = "Jacob", companyName = "Nexer" }) => {
             Hey {userName} - if you're ready to help your network and make an
             introduction to {companyName}
           </h1>
+          <Link to="/Login">
           <button className="Hcta-button">Click here</button>
+            </Link>
           <p className="sub-text">
             Or to find out more about how introductions work, keep reading
           </p>

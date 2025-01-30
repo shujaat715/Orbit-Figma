@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
+import { Link } from "react-router-dom";
 
 const LoginPage = ({ onSignIn = () => {}, onSignUp = () => {} }) => {
   const [email, setEmail] = useState('');
@@ -53,10 +54,11 @@ const LoginPage = ({ onSignIn = () => {}, onSignUp = () => {} }) => {
                 {showPassword ? "👁️" : "👁️"}
               </button>
             </div>
-
+            <Link to="/dashboard-new-introductions">
             <button type="submit" className="sign-in-button">
               Sign in
             </button>
+            </Link>
           </form>
         </div>
       </div>
