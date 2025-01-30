@@ -46,7 +46,7 @@ const FAQSection = ({
         .title {
           font-family: Raleway, sans-serif;
           font-weight: 700;
-          font-size: 42px;
+          font-size: 40px;
           line-height: 1.17;
           color: #000000;
           text-align: center;

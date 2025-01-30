@@ -7,7 +7,7 @@ const HowItWorks = () => {
       <h1 className="howItworks-title">How making an introduction works</h1>
       
       <div className="howitworks-card-container">
-        <div className="howitworks-card">
+        <div className="howitworks1-card">
           <img 
             src="https://dashboard.codeparrot.ai/api/image/Z5Y6VcAVJ0Xbb6Ge/healthic.png" 
             alt="Search" 
@@ -16,7 +16,7 @@ const HowItWorks = () => {
           <p>Look out for people or companies you know that could benefit from Nexer's services</p>
         </div>
 
-        <div className="howitworks-card">
+        <div className="howitworks2-card">
           <img 
             src="https://dashboard.codeparrot.ai/api/image/Z5Y6VcAVJ0Xbb6Ge/group-2.png" 
             alt="Communication" 
