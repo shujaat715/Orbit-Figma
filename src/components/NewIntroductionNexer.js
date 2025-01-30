@@ -168,7 +168,7 @@ const NewIntroductionNexer = ({
           </div>
           <input
             type="text"
-            placeholder="Amount or %"
+            placeholder="Amount £ or %"
             style={{ border: "2px solid", borderRadius: "8px" }}
           />
 
