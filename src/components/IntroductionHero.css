@@ -179,3 +179,87 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+/* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .content-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 5%;
+  }
+
+  .left-content {
+    max-width: 100%;
+  }
+
+  .Hcta-button {
+    margin: 20px auto;
+  }
+
+  .sub-text {
+    font-size: 1.3rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-menu {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content-section {
+    padding: 20px 5%;
+  }
+
+  .Hintro-text {
+    font-size: 1.8rem;
+  }
+
+  .sub-text {
+    font-size: 1.2rem;
+  }
+
+  .macbook-preview {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hintro-text {
+    font-size: 1.5rem;
+  }
+
+  .sub-text {
+    font-size: 1rem;
+  }
+
+  .Hcta-button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .orbit-logo {
+    width: 130px;
+  }
+
+  .macbook-preview {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    gap: 5px;
+  }
+}

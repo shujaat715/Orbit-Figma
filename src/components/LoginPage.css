@@ -189,4 +189,73 @@
 
   }
   
+/* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .login-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .login-left {
+    flex: none;
+    padding: 3rem;
+  }
+
+  .login-right {
+    flex: none;
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-title {
+    font-size: 36px;
+  }
+
+  .login-subtitle {
+    font-size: 14px;
+  }
+
+  .sign-in-button, .sign-up-button {
+    width: 280px;
+    font-size: 20px;
+  }
+
+  .new-here {
+    font-size: 48px;
+  }
+
+  .signup-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-title {
+    font-size: 28px;
+  }
+
+  .login-subtitle {
+    font-size: 12px;
+  }
+
+  .social-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sign-in-button, .sign-up-button {
+    width: 250px;
+    font-size: 18px;
+  }
+
+  .new-here {
+    font-size: 36px;
+  }
+
+  .signup-text {
+    font-size: 18px;
+  }
+}
   

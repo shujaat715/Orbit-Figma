@@ -91,3 +91,119 @@
     text-align: center;
   }
   
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1024px) {
+  .introduction-guide {
+    padding: 24px;
+  }
+
+  .guide-title {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .steps-container {
+    padding-left: 20px;
+  }
+
+  .step {
+    gap: 12px;
+  }
+
+  .step-number {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .step-title {
+    font-size: 14px;
+  }
+
+  .step-description {
+    font-size: 13px;
+    max-width: 280px;
+  }
+
+  .video-thumbnail {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-guide {
+    padding: 16px;
+  }
+
+  .guide-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .steps-container {
+    padding-left: 16px;
+  }
+
+  .step {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .step-number {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .step-title {
+    font-size: 14px;
+  }
+
+  .step-description {
+    font-size: 12px;
+    max-width: 260px;
+  }
+
+  .video-thumbnail {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .introduction-guide {
+    padding: 12px;
+  }
+
+  .guide-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .steps-container {
+    padding-left: 12px;
+  }
+
+  .step {
+    gap: 6px;
+  }
+
+  .step-number {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+
+  .step-title {
+    font-size: 12px;
+  }
+
+  .step-description {
+    font-size: 11px;
+    max-width: 240px;
+  }
+
+  .video-thumbnail {
+    max-width: 240px;
+  }
+}

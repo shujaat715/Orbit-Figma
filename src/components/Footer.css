@@ -25,4 +25,43 @@
     text-decoration: underline;
   }
   
+/* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 50px 5%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 5%;
+  }
+
+  .footer-links {
+    gap: 15px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 5%;
+  }
+
+  .footer-links {
+    gap: 10px;
+  }
+
+  .footer-link {
+    font-size: 13px;
+  }
+}
   

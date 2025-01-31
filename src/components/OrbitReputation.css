@@ -57,3 +57,58 @@
   }
   
   
+/* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .orbit-description {
+    font-size: 1.1rem;
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .feature-card {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .orbit-title {
+    font-size: 2rem;
+  }
+
+  .orbit-description {
+    font-size: 1rem;
+    margin-bottom: 60px;
+  }
+
+  .feature-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .orbit-title {
+    font-size: 1.8rem;
+  }
+
+  .orbit-description {
+    font-size: 0.9rem;
+  }
+
+  .feature-card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .feature-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+  }
+}

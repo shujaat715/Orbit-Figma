@@ -42,5 +42,50 @@
   .introduction-hero__cta:active {
     background-color: #E69900;
   }
-  
+  /* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .introduction-hero {
+    padding: 40px 5%;
+  }
+
+  .introduction-hero__title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .introduction-hero__cta {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-hero {
+    padding: 30px 5%;
+  }
+
+  .introduction-hero__title {
+    font-size: 2.5rem;
+  }
+
+  .introduction-hero__cta {
+    font-size: 1.2rem;
+    height: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .introduction-hero__title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .introduction-hero__cta {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
   

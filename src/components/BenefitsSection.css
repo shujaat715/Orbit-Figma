@@ -95,3 +95,57 @@
 .benefits-button:hover {
   transform: scale(1.05);
 }
+/* 📱 Responsive Media Queries */
+@media (max-width: 1024px) {
+  .steps-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .step {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-content {
+    padding: 30px;
+  }
+
+  .benefits-heading {
+    font-size: 2rem;
+  }
+
+  .benefits-intro-text {
+    font-size: 1.2rem;
+  }
+
+  .steps-container {
+    padding: 20px;
+  }
+
+  .benefits-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefits-content {
+    padding: 20px;
+  }
+
+  .benefits-heading {
+    font-size: 1.8rem;
+  }
+
+  .benefits-intro-text {
+    font-size: 1rem;
+  }
+
+  .benefits-button {
+    font-size: 20px;
+    height: 55px;
+  }
+}
