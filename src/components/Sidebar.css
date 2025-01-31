@@ -53,6 +53,9 @@
   cursor: pointer;
   transition: background-color 0.2s;
 }
+.smain-menu{
+display: flex;
+}
 
 .menu-item.active {
   background-color: #ffaa00;
@@ -72,12 +75,18 @@
   line-height: 12px;
 }
 
+
 .menu-item.active .menu-text {
   font-weight: 500;
 }
 
 .menu-item:not(.active) .menu-text {
   font-weight: 400;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  /* display: contents; */
 }
 
 @media (max-width: 768px) {

@@ -53,7 +53,7 @@ const Sidebar = () => {
           className="slogo"
         />
       </div>
-
+<div className="smain-menu">
       <nav className="menu" style={{padding:"0px"}}>
         <span className="menu-label">MENU</span>
         <ul className="menu-list">
@@ -70,7 +70,7 @@ const Sidebar = () => {
             </li>
           ))}
         </ul>
-
+       
         <span className="menu-label others-label">OTHERS</span>
         <ul className="menu-list">
           {otherItems.map((item) => (
@@ -81,6 +81,7 @@ const Sidebar = () => {
           ))}
         </ul>
       </nav>
+      </div>
     </div>
   );
 };

@@ -68,10 +68,11 @@
 }
 
 .menu-item img {
-  display: block;
+  /* display: block; */
   top: 20px;
   width: 25px;
   height: 25px;
+  /* margin-top: -10px; */
 }
 
 @media (max-width: 768px) {
