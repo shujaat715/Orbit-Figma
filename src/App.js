@@ -34,9 +34,10 @@ const App = () => {
 
         {/* Routes */}
         <Routes>
+        <Route path="*" element={<LandingPage />} />
           <Route path="/email" element={<Email />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/landing" element={<LandingPage />} />
+         
           <Route
             path="/dashboard-new-introductions"
             element={<DashboardNewIntroduction />}
@@ -50,16 +51,16 @@ const App = () => {
           <Route path="/landing-page3" element={<LandingPage3 />} />
           <Route path="/landing-page4" element={<LandingPage4 />} />
           <Route path="/landing-page5" element={<LandingPage5 />} />
-          <Route
+          {/* <Route 
             path="*"
             element={
               <div>
                 <h1>Welcome to the App</h1>
-                <p>Select a page from the navigation menu.</p>
+                <p>type this link on brouser url: http://localhost:3001/landing.</p>
               </div>
             }
-          />
-        </Routes>
+          />*/}
+         </Routes> 
       </div>
     </Router>
   );
